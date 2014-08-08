@@ -45,6 +45,6 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git
 
 gem 'httparty'
 gem 'omniauth-madmimi', git: 'git://github.com/madmimi/omniauth-madmimi.git'
-gem 'spree_madmimi', :path => '../spree_madmimi' # :github => 'godaddy/spree_madmimi'
+gem 'spree_madmimi', :github => 'godaddy/spree_madmimi'
 
 gem 'rails_12factor', group: :production
