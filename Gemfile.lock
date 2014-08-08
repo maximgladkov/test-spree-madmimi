@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/godaddy/spree_madmimi.git
+  revision: e8a656a736b0d68f323ea44908033573b82238ac
+  specs:
+    spree_madmimi (2.3.1)
+      spree_core (~> 2.3.1)
+
+GIT
   remote: git://github.com/madmimi/omniauth-madmimi.git
   revision: d3969483b6e7be8afdf9b48fd049d3fdc9841261
   specs:
@@ -24,15 +31,6 @@ GIT
   specs:
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
-
-PATH
-  remote: ../spree_madmimi
-  specs:
-    spree_madmimi (2.3.1)
-      httparty
-      omniauth-madmimi
-      omniauth-oauth2
-      spree_core (~> 2.3.1)
 
 GEM
   remote: https://rubygems.org/
@@ -114,14 +112,11 @@ GEM
       devise (>= 2.1.0)
     erubis (2.7.0)
     execjs (2.2.1)
-    faraday (0.9.0)
-      multipart-post (>= 1.2, < 3)
     ffaker (1.24.0)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.4)
       activerecord (>= 4.0.0)
-    hashie (3.2.0)
     highline (1.6.21)
     hike (1.2.3)
     httparty (0.13.1)
@@ -137,7 +132,6 @@ GEM
     jquery-ui-rails (4.1.2)
       railties (>= 3.1.0)
     json (1.8.1)
-    jwt (1.0.0)
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -153,23 +147,8 @@ GEM
       i18n (~> 0.6.4)
     multi_json (1.10.1)
     multi_xml (0.5.5)
-    multipart-post (2.0.0)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
-    oauth2 (1.0.0)
-      faraday (>= 0.8, < 0.10)
-      jwt (~> 1.0)
-      multi_json (~> 1.3)
-      multi_xml (~> 0.5)
-      rack (~> 1.2)
-    omniauth (1.2.2)
-      hashie (>= 1.2, < 4)
-      rack (~> 1.0)
-    omniauth-oauth2 (1.2.0)
-      faraday (>= 0.8, < 0.10)
-      multi_json (~> 1.3)
-      oauth2 (~> 1.0)
-      omniauth (~> 1.2)
     orm_adapter (0.5.0)
     paperclip (4.1.1)
       activemodel (>= 3.0.0)
