@@ -58,7 +58,7 @@ Rails.application.configure do
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-  config.assets.precompile += %w( application.js application.css backend/all.js backend/all.css frontend/all.js frontend/all.css )
+  config.assets.precompile += %w( application.js application.css spree/backend/all.js spree/backend/all.css spree/frontend/all.js spree/frontend/all.css )
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
