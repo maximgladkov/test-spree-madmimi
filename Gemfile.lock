@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/godaddy/spree_madmimi.git
-  revision: 695806bc0caf340221517473b407a5f1e24b8be2
+  revision: df6c213ef5e2dac5f3efeae936409b0ac47b5612
   branch: feature/side_tab_webform
   specs:
     spree_madmimi (2.3.1)
