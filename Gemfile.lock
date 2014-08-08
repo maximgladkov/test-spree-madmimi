@@ -1,8 +1,12 @@
 GIT
   remote: git://github.com/godaddy/spree_madmimi.git
-  revision: e8a656a736b0d68f323ea44908033573b82238ac
+  revision: 9d3942127645b12ef5206d17f896438e4cce6d8f
+  branch: feature/side_tab_webform
   specs:
     spree_madmimi (2.3.1)
+      httparty
+      omniauth-madmimi
+      omniauth-oauth2
       spree_core (~> 2.3.1)
 
 GIT
