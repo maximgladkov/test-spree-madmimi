@@ -5,6 +5,7 @@
  *
 
  *= require spree/frontend
+ *= require spree/frontend/spree_madmimi
 
  *= require_self
  *= require_tree .
