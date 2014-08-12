@@ -34,4 +34,9 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.madmimi = {
+    client_id:     'aeead7844f1ff7c7fb2922829439363df2472a3dae7f239ee6a46f7a70adf4df',
+    client_secret: '33fbeeeb5e98262bdcaf7d15f9fbf98461b76d1fba121cc0148fddd79554e0e8'
+  }
 end

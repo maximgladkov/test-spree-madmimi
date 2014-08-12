@@ -79,4 +79,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.madmimi = {
+    client_id:     '1133a46ee7f0aee3c2a33ba10e4eb4ef3a1d1fbedf9866b265a1cfcf2622c42c',
+    client_secret: 'a49a34921fcae3f7bfc41593be76b8dbf2f8df7f8148f2e1cd0cca8866d3a2ab'
+  }
 end
