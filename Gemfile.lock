@@ -1,10 +1,11 @@
 GIT
   remote: git://github.com/godaddy/spree_madmimi.git
-  revision: df6c213ef5e2dac5f3efeae936409b0ac47b5612
-  branch: feature/side_tab_webform
+  revision: 2af935a1dc5c83341ec34e5c5d6f86e92160a275
   specs:
     spree_madmimi (2.3.1)
+      factory_girl_rails
       httparty
+      mad_cart
       omniauth-madmimi
       omniauth-oauth2
       spree_core (~> 2.3.1)
@@ -116,8 +117,15 @@ GEM
       devise (>= 2.1.0)
     erubis (2.7.0)
     execjs (2.2.1)
+    factory_girl (4.4.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.4.1)
+      factory_girl (~> 4.4.0)
+      railties (>= 3.0.0)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     ffaker (1.24.0)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
@@ -143,6 +151,9 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    mad_cart (0.0.3)
+      faraday
+      faraday_middleware
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -320,11 +331,9 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  httparty
   jbuilder (~> 2.0)
   jquery-rails
   omniauth-madmimi!
-  omniauth-oauth2
   pg
   rails (~> 4.1.4)
   rails_12factor

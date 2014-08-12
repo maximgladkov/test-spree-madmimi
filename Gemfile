@@ -51,9 +51,7 @@ gem 'spree', '2.3.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 
-gem 'httparty'
-gem 'omniauth-oauth2'
-gem 'omniauth-madmimi', git: 'git://github.com/madmimi/omniauth-madmimi.git'
-gem 'spree_madmimi', :github => 'godaddy/spree_madmimi', :branch => 'feature/side_tab_webform'
+gem 'omniauth-madmimi', github: 'madmimi/omniauth-madmimi'
+gem 'spree_madmimi', :github => 'godaddy/spree_madmimi'
 
 gem 'rails_12factor', group: :production
