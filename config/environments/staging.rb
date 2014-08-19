@@ -81,7 +81,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.madmimi = {
-    client_id:     'aeead7844f1ff7c7fb2922829439363df2472a3dae7f239ee6a46f7a70adf4df',
-    client_secret: '33fbeeeb5e98262bdcaf7d15f9fbf98461b76d1fba121cc0148fddd79554e0e8'
+    client_id:     'a37ec67f4d66cbe3a9de50a6cbb44750db6da6993c7e8d4a4ee604b959d41dfa',
+    client_secret: 'b2545624bbfd1a1c99cb5d9a64c5fe6f356ed274b9c72ae4c67edc29469158f6'
   }
 end
